@@ -1,0 +1,29 @@
+task01.c:1:1: ошибка: неизвестное имя типа «Double»; имелось в виду «double»?
+    1 | Double sum, step
+      | ^~~~~~
+      | double
+task01.c:2:1: ошибка: expected «=», «,», «;», «asm» or «__attribute__» before «Sum»
+    2 | Sum=0;
+      | ^~~
+task01.c:3:1: предупреждение: определение данных не содержит ни типа, ни класса хранения
+    3 | Step=0.5;
+      | ^~~~
+task01.c:3:1: предупреждение: в декларации «Step» по умолчанию установлен тип «int» [-Wimplicit-int]
+task01.c:4:11: ошибка: expected «)» before «<» token
+    4 | While (sum<1)
+      |           ^
+      |           )
+task01.c:9:1: ошибка: неизвестное имя типа «Print»; имелось в виду «int»?
+    9 | Print f (��SUM=%f, STEP=%f, sum, step);
+      | ^~~~~
+      | int
+task01.c:9:10: ошибка: в программе обнаружен некорректный символ «\221»
+    9 | Print f (��SUM=%f, STEP=%f, sum, step);
+      |          ^
+task01.c:9:11: ошибка: в программе обнаружен некорректный символ «\222»
+    9 | Print f (��SUM=%f, STEP=%f, sum, step);
+      |           ^
+task01.c:9:15: ошибка: expected «)» before «=» token
+    9 | Print f (��SUM=%f, STEP=%f, sum, step);
+      |               ^
+      |               )
