@@ -1,9 +1,15 @@
-Double sum, step
-Sum=0;
-Step=0.5;
-While (sum<1)
+#include <stdio.h>
+int main (void)
 {
-Sum=sum+step;
-Step=step/2
+	float sum, step;
+	sum=0;
+	step=0.5;
+	printf ("SUM=%f, STEP=%f\n", sum, step);
+	while (sum<1)
+		{
+		printf ("%f, %f + %f =\n", sum, sum, step);
+		sum=sum+step;
+		step=step/2;
+		}
+	printf ("SUM=%f, STEP=%f\n", sum, step);
 }
-Print f (‘’SUM=%f, STEP=%f, sum, step);
