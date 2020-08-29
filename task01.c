@@ -11,5 +11,6 @@ int main (void)
 		sum=sum+step;
 		step=step/2;
 		}
+		//result
 	printf ("SUM=%f, STEP=%f\n", sum, step);
 }
